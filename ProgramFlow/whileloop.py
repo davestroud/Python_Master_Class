@@ -2,6 +2,6 @@
 #     print("i is now {}".format(i))
 
 i = 0
-while True:
-    print("i is now {}".format(i))
-i += 1
+while i < 10:
+    print(f"i is now {i}")
+    i += 1
