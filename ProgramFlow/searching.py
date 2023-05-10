@@ -13,6 +13,6 @@ if item_to_find in shopping_list:
     found_at = shopping_list.index(item_to_find)
 
 if found_at is not None:
-    print("Item found at position {}".format(found_at))
+    print(f"Item found at position {found_at}.")
 else:
-    print("{} not found".format(item_to_find))
+    print(f"{item_to_find} not found.")

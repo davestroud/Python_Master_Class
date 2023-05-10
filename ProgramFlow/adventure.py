@@ -9,3 +9,4 @@ while chosen_exit not in available_exits:
 
 else:
     print("aren't you glad you got out of there")
+
