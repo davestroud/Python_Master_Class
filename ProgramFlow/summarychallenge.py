@@ -1,7 +1,7 @@
 choice = "-"
 while choice != "0":
     if choice in "12345":
-        print("You chose {}".format(choice))
+        print(f"You chose {choice}")
     else:
         print("Please choose your option from the list below:")
         print("1:\tLearn Python")
